@@ -1,0 +1,431 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+input, textarea{
+    border: 0;
+    outline: none;
+}
+input,button{
+    border: 0;
+  
+}
+
+body{
+
+    background-color: rgb(239, 250, 255);
+    margin-right: 0px;
+    padding-right: 0px;
+}
+#wendylogo{
+    width: 70px;
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    
+    align-items: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 17px;
+    z-index: 1;
+
+    background-color: rgb(110, 165, 209);
+
+ }   
+ .navbar, .navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 40px;
+   
+ }
+
+
+ .navbar-list{
+    gap: 150px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    
+  
+ }
+ .navbar i{
+    font-size: 30px;
+    color: white;
+    display: none;
+
+ }
+ #toggle-menu{
+    display: none;
+ }
+ a{
+    color: rgb(239, 250, 255);
+ }
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: serif;
+   
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    width: 90%;
+   
+}
+
+.hero-presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+#novedades{
+    color: rgb(151, 182, 211);
+}
+
+.hero-presentation h1{
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    width: 450px;
+}
+
+.parrafos{
+    font-weight: 200;
+    font-size: 16px;
+    display: flex;
+    width: 550px;
+
+}
+
+.button-container{
+    display: flex;
+    gap: 5px;
+}
+.boton-1{
+    background-color: rgb(160, 206, 236);
+    color: white;
+    
+}
+
+
+.boton-1:hover{
+    color: rgb(35, 129, 153);
+    background-color: aliceblue;
+    
+}
+.boton-3{
+    background-color: rgb(92, 157, 196);
+    color: white;
+    position: relative;
+   left: 15%;
+}
+
+#lw-portada{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.album-info{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.album{
+    display: flex;
+    gap: 5px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+    
+
+}
+
+.soft{
+display: flex;
+justify-content: center;
+font-family: 'Oleo Script Swash Caps', cursive;
+color: rgb(208, 232, 238);
+font-weight: 100;
+background-color: rgb(231, 243, 250);
+width: 100%;
+
+}
+
+.beneficios{
+    display: flex;
+   
+    justify-content: space-between;
+   
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.bene{
+    display: flex;
+    background-color: rgb(183, 218, 247);
+    width: 300px;
+    height: 200px;
+    
+    flex-direction: column;
+    border-radius: 25px;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 120px;
+
+}
+.bene h1{
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    padding-top: 15px;
+}
+.bene p{
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+    padding-top: 15px;
+    
+    width: 80%;
+}
+.mas-vendidos{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding-top: 15px;
+    position: relative;
+    top: 50px;   
+}
+.otros img{
+    display: flex;
+
+    width: 200px;
+}
+#mas-v{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(183, 218, 247);
+    width: 100%;
+    color: white;
+}
+#beneficios-de-comprar{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(183, 218, 247);
+    width: 100%;
+    color: white;
+    gap: 15px;
+    position: relative;
+    top: 100px;
+    
+}
+.espacio{
+    gap: 20px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    top: 150px;
+    background-color: rgb(183, 218, 247);;
+    width: 100%;
+    height: 230px;
+    
+   
+}
+.contacto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    top: 150px;
+    background-color: rgb(183, 218, 247);
+    width: 80%;
+    height: 250px;
+    
+   
+}
+
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 15px;
+    color: rgb(71, 71, 71);
+}
+#registrarse{
+    position: relative;
+    top:100px;
+
+}
+#ing{
+    position: relative;
+    top: 100px;
+}
+.footer{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(117, 174, 212);
+   padding-bottom: 40px;
+   
+    
+}
+footer h2{
+    position: relative;
+    top: 180px;
+    justify-content: center;
+    display: flex;
+}
+#Log{
+    width: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.foodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 992px) {
+    .navbar-list{
+        gap: 20px;
+    }
+   .hero{
+    padding: 0px,0px;
+   }
+    .hero-presentation{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        
+        
+
+    }
+    .hero-presentation h1{
+        display: block;
+        width: 100%; 
+    
+}
+.hero-presentation p{
+    max-width: 90%;
+    font-size: 16px;
+
+}
+.button-container{
+    justify-content: center;
+
+}
+#lw-portada{
+    display: none;
+}
+.album-info img{
+    display: none;
+}
+div.album-info{
+    display: none;
+}
+div.album{
+    display: none;
+}
+.mas-vendidos{
+    display: flex;
+    flex-direction: column;
+}
+.otros{
+    display: flex;
+    flex-direction: row;
+}
+.otros-in{
+    display: flex;
+    flex-direction: column;
+}
+.beneficios{
+    display: flex;
+    flex-direction: column;
+}
+section.hero{
+    width: 90%;
+}
+}
+
+@media (max-width: 567px){
+    .navbar ul{
+        background-color: rgb(183, 218, 247);
+        width: 100%;
+        height: calc(100vh - 0px);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: all 0.5s ease-out;
+    }
+    .navbar i{
+        display: block;
+       position: absolute;
+        right: 45px;
+        width: 40px;
+        top: 20px;
+        cursor: pointer;
+       
+        
+    }
+    .navbar-list{
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
+        gap: 75px;
+        position: absolute;
+        top: 0px;
+    
+    }
+    #toggle-menu:checked + .navbar-list{
+        transform: translateX(0%);
+        transition: all 0.5s ease-in;
+    }
+    .contacto2{
+        width: 100%;
+        padding-left: 20px;
+        height: 300px;
+    }
+    
+    
+}
